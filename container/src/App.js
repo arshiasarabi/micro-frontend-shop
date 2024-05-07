@@ -1,11 +1,10 @@
 import React from 'react'
-import { mount } from 'marketing/MarketingApp'
 import MarketingApp from './components/MarketingApp'
-
+import DashboardApp from './components/DashboardApp'
 
 export default () => {
     return <div>
-        <h1>Hi There!</h1>
+        <DashboardApp />
         <hr />
         <MarketingApp />
     </div>
